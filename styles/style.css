@@ -32,31 +32,27 @@
   justify-content: center;
 }
 
-/* Added missing classes from HTML below, arranged by parent-child relation */
-
-/* Parent: .father-div */
 .father-div {
+  width: 100%;
 }
+/* 
 
-/* Header children */
 .banner {
 }
 .nav-item {
 }
 
-/* Action section */
+
 .action-left {
 }
 .action-right {
 }
 
-/* Productive Users Section */
 .inline-childs {
 }
 .user-stat {
 }
 
-/* Challenge Section */
 .user-rating {
 }
 .stars {
@@ -68,11 +64,9 @@
 .user-name {
 }
 
-/* Ready to focus section */
 .ready-to-focus {
 }
 
-/* Get in touch section */
 .get-in-touch {
 }
 .get-in-touch-left {
@@ -88,6 +82,5 @@
 .get-in-touch-input {
 }
 
-/* Footer */
 .footer {
-}
+} */
