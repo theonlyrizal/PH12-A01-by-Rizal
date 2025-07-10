@@ -1,0 +1,90 @@
+:root {
+  --primary-color: #4e47ff;
+  --primary-surface: #f5f8ff;
+  --secondary-surface: rgba(77, 71, 255, 0.1);
+  --text-color: #333;
+  --primary-font: 'Raleway';
+  --secondary-font: 'Inter';
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: 0.3s ease;
+}
+
+.each-section {
+  display: block;
+  margin: 20px 0;
+}
+
+.horizontal-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Added missing classes from HTML below, arranged by parent-child relation */
+
+/* Parent: .father-div */
+.father-div {
+}
+
+/* Header children */
+.banner {
+}
+.nav-item {
+}
+
+/* Action section */
+.action-left {
+}
+.action-right {
+}
+
+/* Productive Users Section */
+.inline-childs {
+}
+.user-stat {
+}
+
+/* Challenge Section */
+.user-rating {
+}
+.stars {
+}
+.user-info {
+}
+.user-avatar {
+}
+.user-name {
+}
+
+/* Ready to focus section */
+.ready-to-focus {
+}
+
+/* Get in touch section */
+.get-in-touch {
+}
+.get-in-touch-left {
+}
+.flex-start {
+}
+.get-in-touch-right {
+}
+.flex-end {
+}
+.block-childs {
+}
+.get-in-touch-input {
+}
+
+/* Footer */
