@@ -1,0 +1,31 @@
+:root {
+  --primary-color: #4e47ff;
+  --primary-surface: #f5f8ff;
+  --secondary-surface: rgba(77, 71, 255, 0.1);
+  --text-color: #333;
+  --primary-font: 'Raleway';
+  --secondary-font: 'Inter';
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: 0.3s ease;
+}
+
+.each-section {
+  margin: 20px 0;
+}
+
+.horizontal-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
