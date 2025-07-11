@@ -76,11 +76,13 @@ button:hover {
 
 .father-div {
   width: 100%;
+  min-width: 1300px;
   background-color: var(--primary-surface);
 }
 
 .header {
   width: 100%;
+  min-height: 100vh;
   display: block;
   background-image: url(../assets/hero-bg.png);
   background-repeat: no-repeat;
