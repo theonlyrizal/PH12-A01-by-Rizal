@@ -264,6 +264,12 @@ button:hover {
   flex-direction: column;
 }
 
+.get-in-touch-right button{
+  width: 100%;
+  padding: 30px;
+  margin-top: 20px;
+}
+
 .get-in-touch-input {
   width: 100%;
   margin: 20px 0;
@@ -290,6 +296,8 @@ button:hover {
   font-weight: 600;
   color: var(--secondary-font-color);
 }
+
+
 
 .flex-start {
   display: flex;
