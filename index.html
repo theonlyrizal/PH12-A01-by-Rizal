@@ -10,23 +10,34 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <div class="father-div">
-      <header class="each-section">
-        <nav>
-          <div class="nav-item flex-start">PH12A01</div>
-          <div class="nav-item flex-end"><button>Sign Up</button></div>
+      <!-- header: nav + banner -->
+      <header class="header each-section">
+        <nav class="nav inline-childs">
+          <div class="flex-start">
+            <img class="logo-img" src="assets/logo.png" alt="purple logo" />
+          </div>
+          <div class="flex-end"><button>Sign Up</button></div>
         </nav>
-        <div class="banner">
-          <h1>Cool Dark UI Template for Webflow Agencies</h1>
-          <button>Stay Focused</button>
+        <div class="horizontal-center">
+          <div class="banner-content">
+            <h1>Cool Dark UI Template for Webflow Agencies!</h1>
+            <button>Stay Focused</button>
+          </div>
         </div>
       </header>
-      <main id="main-content">
+      <main class="main-content">
         <!-- Action section -->
-        <section class="each-section">
+        <section class="each-section action inline-childs">
           <div class="action-left">
             <h2>See It in Action</h2>
             <p>Explore the live preview and imagine your brand in this bold new look.</p>
@@ -37,7 +48,7 @@
           </div>
         </section>
         <!-- Productive Users Section -->
-        <section class="each-section">
+        <section class="each-section productive-users">
           <h2>Joined Thousands of Productive Users</h2>
           <div class="inline-childs">
             <div class="user-stat">
